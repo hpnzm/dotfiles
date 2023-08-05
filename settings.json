@@ -1,0 +1,62 @@
+{
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "extensions.ignoreRecommendations": true,
+  "workbench.startupEditor": "none",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.colorTheme": "Dracula",
+
+  "editor.fontFamily": "IntelOneMono Nerd Font Mono",
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.fontWeight": "400",
+  "editor.lineNumbers": "relative",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.cursorSurroundingLines": 10,
+
+  "tailwindCSS.includeLanguages": {
+    "typescriptreact": "html"
+  },
+
+  "vim.useSystemClipboard": true,
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindings": [
+    {
+      // format
+      "before": ["<leader>", "f", "m"],
+      "commands": ["editor.action.format"]
+    },
+    {
+      // to right tab
+      "before": ["<tab>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      // to left tab
+      "before": ["<S-tab>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      // close tab
+      "before": ["<leader>", "x"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    }
+  ],
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.minimap.enabled": false,
+  "remote.SSH.defaultExtensions": ["gitpod.gitpod-remote-ssh"],
+  "remote.SSH.remotePlatform": {
+    "theweedsmok-nexttemplat-nb69dtq1ryk.ssh.ws-us102.gitpod.io": "linux",
+    "hpnzm-codespacesblank-kb2lpapazok.vss.gitpod.io": "linux"
+  },
+  "git.enableSmartCommit": true,
+  "redhat.telemetry.enabled": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "git.autofetch": true,
+  "configurationSync.store": {}
+}
